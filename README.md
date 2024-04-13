@@ -11,5 +11,5 @@ Based on: [Making Music with Haskell From Scratch](https://youtu.be/FYTZkE5BZ-0?
 ## Run
 
 ```bash
-$ runghc Main.hs
+$ runghc main.hs
 ```
