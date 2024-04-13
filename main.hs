@@ -141,7 +141,7 @@ noteLetterToSemitone letter =
     GFlat -> 9
     G -> 10
 
--- Formula from https://pages.mtu.edu/~suits/NoteFreqCalcs.html
+-- Formula from https://pressbooks.pub/sound/chapter/pitch-perception-and-logarithms/
 semitoneToHz :: Semitones -> Hz
 semitoneToHz n = pitchStandard * (2 ** (1.0 / 12.0)) ** n
 
